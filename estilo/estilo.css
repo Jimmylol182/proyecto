@@ -1,113 +1,16 @@
-.main-lines {
-    width: 100%; 
-    height: 3px; 
-    color: black; 
-    background-color: black;
-    margin: 7px 0px;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+html {
+  font-size: 25px;
+}
+html body {
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
 
-.main-lines-right {
-    width: 100%; 
-    height: 3px; 
-    color: black; 
-    background-color: black;
-    margin: 4px 0px; 
+.tituloPrincipal {
+  font-size: 22px;
+  color: firebrick;
+  font-weight: bold;
 }
 
-li { display: inline;
-padding: 0px  1rem; margin:0px auto
-
-}
-
-a { text-decoration: none;
-
-
-}
-.column {
-    flex: 1; padding: 1rem;
-
-
-}
-
-.aldea-se-crea {
-background-color: rgb(74, 214, 214);
-width: 100%;
-
-font-size: 30px;
-font-family:Arial, Helvetica, sans-serif
-
-}
-
-p {
-    margin:0px
-}
-
-h1 {
-    color: rgb(150, 150, 150);
-
-
-}
-
-.my-footer
-{
-    width: 100%; 
-    font-family: system-ui;
-}
-.linea-footer { width: 100%;
-    height: 3px;
-
-    background-color: rgb(186, 186, 186);
-}
-
-.parrafo-footer {
-    font-size: 20px; 
-    font-weight: bold
-}
-.aldea-footer {
-    font-size: 25px; 
-    font-weight: bold;
-}
-.contenedor-mapa-footer {
-    width: 100%;
-    text-align:center;margin-top: 1rem;
-}
-
-.contenedor-logo-footer { padding: 1rem;
-flex: 1;
-text-align: center;
-
-}
-
-.contenedor-contiene{
-    padding: 1rem; 
-    max-width: 300px;
-}
-.habitacional {
-    background-color: rgb(167, 167, 167);
-width: 100%;
-
-font-size: 30px;
-color: rgb(126, 31, 31);
-font-family:Arial, Helvetica, sans-serif
-
-}
-
-
-@keyframes    textoaldeamx { 
-    0% {
-        opacity: 0;
-
-    }
-    100% { opacity: 100%;}
-
-}
-    
-h1 { 
-    animation-name: textoaldeamx;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-nav a:hover{
-    color: white;
-}
+/*# sourceMappingURL=estilo.css.map */
