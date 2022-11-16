@@ -16,6 +16,10 @@ html body {
   padding: 5px;
 }
 
+.main-lines, .main-lines-right {
+  color: firebrick;
+}
+
 .navbar {
   background-color: rgb(255, 238, 0) !important;
   font-weight: bold;
@@ -24,6 +28,7 @@ html body {
 .my-footer {
   color: firebrick;
   font-weight: bold;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
